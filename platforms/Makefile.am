@@ -1,4 +1,5 @@
 SUBDIRS = \
+	eeepc-i386-ubuntu-hardy-ppa \
 	mccaslin-lpia \
 	mccaslin-lpia-fedora \
 	mccaslin-lpia-ubuntu-hardy \

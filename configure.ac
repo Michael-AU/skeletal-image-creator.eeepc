@@ -38,6 +38,7 @@ AC_CONFIG_FILES([Makefile po/Makefile.in
                  libs/Makefile
                  utils/Makefile
                  platforms/Makefile
+                 platforms/eeepc-i386-ubuntu-hardy-ppa/Makefile
                  platforms/mccaslin-lpia-fedora/Makefile
                  platforms/mccaslin-lpia-ubuntu-hardy-ppa-snapshot/Makefile
                  platforms/mccaslin-lpia-ubuntu-hardy-ppa/Makefile
