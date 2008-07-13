@@ -10,11 +10,16 @@ PKGS=busybox-initramfs initramfs-tools pm-utils vbetool usplash-theme-ubuntu dos
 DEBUG_PKGS=man-db manpages openssh-client openssh-server
 DEPS=ubuntu-kernel
 
+[eeepc-core]
+DESC=Fundamental fset the provides default user and initial configuration
+PKGS=eeepc-moblin-image-config
+DEPS=core
+
 [eeepc-701-config]
 DESC=Packages needed for EeePC 701
 PKGS=eeepc-701-config
 DEBUG_PKGS=
-DEPS=core
+DEPS=eeepc-core
 
 [eeepc-701-config-with-proprietary]
 DESC=Packages needed for EeePC 701, including proprietary (non-redistributable bits)
