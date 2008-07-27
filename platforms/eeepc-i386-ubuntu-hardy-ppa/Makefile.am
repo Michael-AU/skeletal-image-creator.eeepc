@@ -31,6 +31,7 @@ initramfs_scripts_DATA = \
 sourcesdir = ${pkgdatadir}/platforms/${PNAME}/sources
 sources_DATA = \
 	sources/ubuntu-eeepc-config.list \
+	sources/medibuntu.list \
 	sources/netbook-remix.list\
 	sources/array.org.list \
 	sources/hardy.list \

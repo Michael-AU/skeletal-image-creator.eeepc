@@ -51,6 +51,11 @@ PKGS=ttf-arphic-uming ttf-unfonts-core ttf-kochi-gothic ttf-kochi-mincho
 DEBUG_PKGS=
 DEPS=core
 
+[CJK-Language]
+DESC=Language package for Chinese , Japanese and Korean.
+PKGS=language-pack-zh language-pack-ja language-pack-ko language-support-input-zh language-support-input-ja  language-support-input-ko language-pack-gnome-zh language-pack-gnome-zh-base language-pack-gnome-ja-base language-pack-gnome-ja language-pack-gnome-ko-base language-pack-gnome-ko
+DEPS=asian-fonts
+
 [Ubuntu-Desktop]
 DESC=Ubuntu Desktop, and any base applications for same
 PKGS=ubuntu-desktop
@@ -59,5 +64,9 @@ DEPS=core
 
 [Ubuntu-Netbook-Remix]
 DESC=Ubuntu Netbook Remix, and any base applications for same
-PKGS=go-home-applet human-netbook-theme maximus ume-launcher window-picker-applet
+PKGS=go-home-applet human-netbook-theme maximus ume-launcher window-picker-applet eeepc-netbook-remix-config
 DEPS=ubuntu-desktop
+
+[Multimedia-with-proprietary]
+DESC=Multimedia packages with proprietary library and application (non-redistributable bits)
+PKGS=w32codecs flashplugin-nonfree smplayer  medibuntu-keyring cheese gstreamer0.10-ffmpeg
